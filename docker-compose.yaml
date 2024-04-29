@@ -1,0 +1,19 @@
+version: '3'
+services:
+  back-end:
+    image: backend-image
+    ports:
+      - "3000:3000"
+    networks:
+      - puente
+    container_name: backend-API
+  front-end:
+    image: frontend-image
+    ports:
+      - "4200:4200"
+    networks:
+      - puente
+    container_name: frontAngularAPP
+networks:
+  puente:
+    name: puente
