@@ -5,7 +5,7 @@
 Para poder iniciar el proyecto, seguir estos pasos:
 
 ### 1. Buildear las imagenes Docker
-primero hay que buildear las imagenes con estos dos comandos:
+Primero hay que buildear las imagenes con estos dos comandos:
 - docker build -t backend-image -f dockerfile-backend .
 - docker build -t frontend-image -f dockerfile-frontend .
 
